@@ -1,26 +1,34 @@
 [
   {
     "repository": "android_device_samsung_exynos9810-common",
-    "target_path": "device/samsung/exynos9810-common"
+    "target_path": "device/samsung/exynos9810-common",
+    "branch":"arrow-12.1"
   },
   {
     "repository": "proprietary_vendor_samsung_exynos9810-common",
-    "target_path": "vendor/samsung/exynos9810-common"
+    "target_path": "vendor/samsung/exynos9810-common",
+    "branch":"arrow-12.1"
   },
   {
     "repository": "proprietary_vendor_samsung_starlte",
-    "target_path": "vendor/samsung/starlte"
+    "target_path": "vendor/samsung/starlte",
+    "branch":"arrow-12.1"
   },
   {
-    "repository": "android_hardware_samsung",
-    "target_path": "hardware/samsung"
+    "remote":"github",
+    "repository": "ArrowOS-Devices/android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "branch":"arrow-12.1"
   },
   {
-    "repository": "android_device_samsung_slsi_sepolicy",
-    "target_path": "device/samsung_slsi/sepolicy"
+    "remote":"github",
+    "repository": "ArrowOS-Devices/android_device_samsung_slsi_sepolicy",
+    "target_path": "device/samsung_slsi/sepolicy",
+    "branch":"arrow-12.1"
   },
   {
     "repository": "android_kernel_samsung_exynos9810",
-    "target_path": "kernel/samsung/exynos9810"
+    "target_path": "kernel/samsung/exynos9810",
+    "branch":"arrow-12.1"
   }
 ]
